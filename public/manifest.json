@@ -1,0 +1,16 @@
+{
+  "short_name": "wordle extension",
+  "name": "wordle extension",
+  "manifest_version": 2,
+  "description": "強制的にwordleのネタバレをします",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_icon": "image/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.powerlanguage.co.uk/wordle/*"],
+      "js": ["js/content.js"]
+    }
+  ]
+}
