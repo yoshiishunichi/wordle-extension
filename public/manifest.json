@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.powerlanguage.co.uk/wordle/*"],
+      "matches": ["https://www.nytimes.com/games/wordle/*"],
       "js": ["js/content.js"]
     }
   ]
